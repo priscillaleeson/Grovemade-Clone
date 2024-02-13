@@ -1,0 +1,43 @@
+.box-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 20px;
+}
+
+.grey-box {
+  background-color: #9aa8b1;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 70px;
+
+
+}
+
+//box contents
+
+.icon-container {
+  margin-bottom: 20px;
+}
+
+.leaf-icon {
+  width: 35px;
+  height: 35px;
+
+}
+.box-title {
+  display: block;
+  margin-bottom: 23px;
+
+}
+
+.box-subtitle {
+  display: block;
+  font-weight: 300;
+
+}

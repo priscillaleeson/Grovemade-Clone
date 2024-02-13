@@ -1,0 +1,55 @@
+
+
+.banner-block {
+  width: 100%;
+  height: 450px;
+  background-color: cyan;
+  color: white;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .sub-title {
+    font-weight: 350;
+    font-size: 1.1em;
+    margin: 1em;
+    color: white;
+  }
+
+  .learn-more {
+    text-transform: uppercase;
+    padding-top: 1.7em;
+    display: inline-block;
+    &:hover {
+      .underline {
+        transition: all .3s ease 0s;
+        transform: scaleX(.5);
+      }
+    }
+
+    a {
+        color:white;
+    }
+
+  }
+
+}
+
+.underline {
+  background-color:white;
+  height: 1px;
+  margin-top: 8px;
+}
+
+/**
+Centering techniques
+* What if the underline is inline-block and parent has text align center?
+- What if we use flex + justify-content center
+- What if we use transform scaleX and transform origin?
+- What if we absolutely center it like the navbar? <--
+*/

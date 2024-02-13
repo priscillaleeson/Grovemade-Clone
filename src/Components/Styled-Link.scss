@@ -1,0 +1,61 @@
+
+
+
+.styled-link {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px;
+
+  &.styled-link-top-margin {
+    margin: 20px 0px;
+  }
+
+  // set white vs black colors
+  &.white {
+    a {
+      color: white;
+    }
+    .underline {
+      background-color: white;
+    }
+  }
+  &.black {
+    a {
+      color: black;
+    }
+    .underline {
+      background-color: black;
+    }
+  }
+  &.underline-on-hover {
+    // in the underline on hover variant..
+    // then hover into full wdith & opacity
+    // we need to start at 0% width and 0% opacity
+    .underline {
+      opacity: 0;
+      transform: scaleX(0);
+  
+    }
+    &:hover {
+      .underline {
+        opacity: 1;
+        transform: scaleX(1);
+      }
+    }
+  }
+
+
+  // our underline
+  .underline {
+    height: 1px;
+    margin-top: 8px;
+    transition: all .3s ease 0s;
+  }
+
+  &:hover {
+    // underline hover
+    .underline {
+      transform: scaleX(.5);
+    }
+  }
+}

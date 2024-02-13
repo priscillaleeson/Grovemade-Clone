@@ -1,0 +1,69 @@
+.menu-container {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  z-index: 8;
+  display: flex;
+  border-top: .2px solid #f1f1f2;
+  text-align: left;
+  background-color: white;
+
+
+  .column {
+    margin: 20px;
+  }
+  
+  .column-title {
+    margin: 1em 0em;
+    text-align: left;
+    color: black;
+
+  }
+
+  .column-items-container {
+    font-weight: 300;
+
+  }
+
+  .column-item {
+    margin: 1em 0em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #a0a0a0;
+    transition: 0.2s;
+  }
+
+  a:visited {
+    color: #a0a0a0;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+}
+
+//ExploreDropDownMenu
+.explore-menu-image-container {
+  display: block;
+  margin-top: 40px;
+
+}
+.explore-menu-image {
+  idth: 400px;
+  height: 280px;
+
+}
+.explore-menu-image-description {
+  font-style: italic;
+  font-weight: 300;
+  color: black;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin: 15px;
+  font-size: 12px;
+}
